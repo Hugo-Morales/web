@@ -1,0 +1,32 @@
+/* Section - Surcusales.html*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cont-surc {
+    flex: 1 1;
+    position: relative;
+    max-width: 300px;
+    margin: 30px 25px 0 0;
+}
+
+.cont-surc h4 {
+    text-transform: uppercase;
+}
+
+.cont-surc a {
+    text-decoration: none;
+    color: rgb(47, 0, 255);
+}
+
+.cont-surc iframe {
+    opacity: .4;
+    transition: .7s;
+}
+
+.cont-surc iframe:hover {
+    opacity: 1;
+}
